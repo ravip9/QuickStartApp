@@ -2,9 +2,9 @@ package quickstartapp;
 
 public class Demo 
 {
-    public main( String[] args )
+    public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
-        System.out.println( "Started Jenkin Project" )
+        System.out.println( "Started Jenkin Project" );
     }
 }
