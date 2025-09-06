@@ -1,4 +1,6 @@
-FROM openjdk:8
+FROM openjdk:8-jdk-alpine
 EXPOSE 8080
-ADD target/quickstartapp.jar quickstartapp.jar
+ADD target/*.jar quickstartapp.jar
 ENTRYPOINT ["java" , "-jar" , "/quickstartapp.jar"]
+
+
